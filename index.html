@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElecTroMEDIA - Graphic Designer.</title>
+    <!-- ====== FILE LINKS ====== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/pfp_circle.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body onload=preloader()>
+
+    <div id="preloader"><img src="images/loader.svg" alt="loading animated svg."></div>
+    <script>
+        function preloader(){
+            document.getElementById("preloader").style = `display: none;`
+
+            if(document.getElementById("preloader").style = `display: none;`){
+                document.getElementById("mainHeading").style = `animation: introAni 1.1s ease-in-out;`
+                document.getElementById("mainDescription").style = `animation: introAni 1.1s ease-in-out;`
+                document.getElementById("mainImg").style = `animation: introAniImg 1.1s ease-in-out;`
+                document.getElementById("mainCta").style = `animation: introAni 1.1s ease-in-out;`
+            }else{
+                console.log("hi bruh")
+            }
+        }
+    </script>
+    <div class="cursor"></div>
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="images/pfp_circle.png" alt="Electromedia profile picture.">
+                <p>ElecTroMEDIA™</p>
+            </div>
+            <div class="navigation">
+                <div class="menu-btn"><span class="iconify" data-icon="bx:menu-alt-right"></span></div>
+            </div>
+        </nav>
+
+        <p class="surround-text-1">ELECTROMEDIA AKA VEDANT</p>
+        <p class="surround-text-2">ELECTROMEDIA AKA VEDANT</p>
+
+        <div class="main-landing">
+            <div class="socials">
+                <div class="handle"><a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                        Instagram</a></div>
+                <div class="handle"><a href="#"><span class="iconify" data-icon="akar-icons:behance-fill"></span>
+                        Behance</a></div>
+            </div>
+            <div class="center-main">
+                <div class="texts">
+                    <h1 id="mainHeading">Design is not a<br> thing to do,<br> it's a way of life</h1>
+                    <p id="mainDescription">I am Vedant AKA ElecTroMEDIA™, I am a Graphic Designer, Motion Designer, Digital Marketer and an
+                        Engineer. I am a full time freelancer who turn brainstorming ideas to breathtaking designs. Hit
+                        me up and lets work together!</p>
+                    <a href="#" id="mainCta" class="primary-btn"><span class="iconify" data-icon="zondicons:portfolio"></span> View
+                        Portfolio.</a>
+                </div>
+                <div class="hero"><img id="mainImg" src="images/main_hero_image_2.png" alt="Electromedia photo with a red tint.">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="stats">
+        <div class="stat stat1">
+            <h1>3.6k</h1>
+            <p>Total<br>Followers.</p>
+        </div>
+        <div class="stat stat2">
+            <h1>150+</h1>
+            <p>Projects<br>Completed.</p>
+        </div>
+        <div class="stat stat1">
+            <h1>140+</h1>
+            <p>Clients<br>Satisfied.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="themed-heading">
+            <p>IN WHAT TOOLS I AM GOOD AT</p>
+            <h1>My <span class="theme-underline">Skills.</span></h1>
+        </div>
+        <div class="skills-main">
+            <div class="skill-bars">
+                <div class="bar-container">
+                    <p>Adobe Photoshop</p>
+                    <span class="bar"><span class="inner-bar1" id="barOne"></span></span>
+                </div>
+                <div class="bar-container">
+                    <p>Adobe After Effects</p>
+                    <span class="bar"><span class="inner-bar2" id="barTwo"></span></span>
+                </div>
+                <div class="bar-container">
+                    <p>Adobe Illustrator</p>
+                    <span class="bar"><span class="inner-bar3" id="barThree"></span></span>
+                </div>
+                <div class="bar-container">
+                    <p>Adobe Premiere Pro</p>
+                    <span class="bar"><span class="inner-bar4" id="barFour"></span></span>
+                </div>
+                <div class="bar-container">
+                    <p>Valorant(Gamer at night)</p>
+                    <span class="bar"><span class="inner-bar5" id="barFive"></span></span>
+                </div>
+            </div>
+            <div class="skill-texts">
+                <p>I am working in the field of Designing for about 5 years, first I started designing on mobile but
+                    then shifted on PC. Throughout my entire career, i believed to learn something new everyday, that is
+                    why I have come this far into this field with my favorite tools.</p>
+                <a href="#" class="secondary-btn">Let's work together.</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="themed-heading">
+            <p>FOR WHAT STUFF I AM AVAILABLE FOR</p>
+            <h1>My <span class="theme-underline">Services.</span></h1>
+        </div>
+        <div class="service-cards">
+            <div class="card" data-tilt><span class="iconify" data-icon="bi:vector-pen"></span> <p>Logo Design.</p></div>
+            <div class="card" data-tilt><span class="iconify" data-icon="akar-icons:game-controller"></span> <p>Esports Designs.</p></div>
+            <div class="card" data-tilt><span class="iconify" data-icon="ic:outline-slow-motion-video"></span> <p>Motion Designs.</p></div>
+            <div class="card" data-tilt><span class="iconify" data-icon="bx:vector"></span> <p>Branding.</p></div>
+            <div class="card" data-tilt><span class="iconify" data-icon="nimbus:marketing"></span> <p>Digital Marketing.</p></div>
+            <div class="card" data-tilt><span class="iconify" data-icon="bi:broadcast-pin"></span> <p>Stream Assets.</p></div>
+        </div>
+        <div class="service-btn"><a href="#" class="primary-btn">Order your's now.</a></div>
+    </section>
+
+    <section class="portfolio">
+        <h1 class="backdrop-text">PORTFOLIO</h1>
+        <div class="themed-heading">
+            <p>EXPLORE ALL MY WORKS AND PROJECTS</p>
+            <h1>Visit my portfolio <a href="#" class="themed-link">here</a></span></h1>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="left">
+            <div class="themed-heading"><h1>Let's<br><span class="theme-underline">Connect</span></h1></div>
+            <p>Have a project in mind? Hit me up and let's turn that idea into a beautiful design! Or maybe we can work on anything else, contact me via this form or through my social media.</p>
+            <div class="social-media">
+                <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                <a href="#"><span class="iconify" data-icon="akar-icons:behance-fill"></span></a>
+                <a href="#"><span class="iconify" data-icon="akar-icons:youtube-fill"></span></a>
+            </div>
+        </div>
+        <div class="form">
+            <form action="https://formspree.io/f/xayvdbay" method="POST">
+                <input type="text" name="Name" id="" placeholder="Your Name">
+                <input type="text" name="Country" id="" placeholder="Your Country">
+                <textarea name="Message" id="" placeholder="Your Message"></textarea>
+                <button type="submit" class="submit-btn">Submit <span class="iconify" data-icon="akar-icons:arrow-up-right"></span></button>
+            </form>
+            <img src="images/square_abstract.svg" alt="square abstract element.">
+        </div>
+    </section>
+
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/vanillatilt.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+    <script>
+        window.addEventListener("scroll", (event) => {
+            let scroll = this.scrollY;
+            let scrollVal = parseInt(scroll);
+            let targetScroll = 613;
+            if (scrollVal > targetScroll) {
+                let barOne = document.getElementById("barOne");
+                let barTwo = document.getElementById("barTwo");
+                let barThree = document.getElementById("barThree");
+                let barFour = document.getElementById("barFour");
+                let barFive = document.getElementById("barFive");
+
+                barOne.style = `animation: barIntro1 1s ease-in-out;`;
+                barTwo.style = `animation: barIntro2 1s ease-in-out;`;
+                barThree.style = `animation: barIntro3 1s ease-in-out;`;
+                barFour.style = `animation: barIntro4 1s ease-in-out;`;
+                barFive.style = `animation: barIntro5 1s ease-in-out;`;
+            }else{
+                console.log("wassup bruh")
+            }
+        })
+    </script>
+</body>
+
+</html>
